@@ -7,7 +7,8 @@
         "VaultServerDataAccessor",
         "VaultSharedDataAccessor",
         "VaultBlockEntityServerMixin",
-        "StonecutterDamageMixin"
+        "StonecutterDamageMixin",
+        "BluestoneWireConnectionMixin"
     ],
     "injectors": {
         "defaultRequire": 1

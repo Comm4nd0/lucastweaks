@@ -22,6 +22,9 @@ public class ModConfig {
     // Stonecutter Damage
     public boolean stonecutterDamageEnabled = true;
 
+    // Bluestone
+    public boolean bluestoneEnabled = true;
+
     // Stackable Totems
     public boolean stackableTotemsEnabled = true;
 

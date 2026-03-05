@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+        "layer0": "lucastweaks:item/bluestone_dust"
+    }
+}

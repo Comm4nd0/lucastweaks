@@ -47,6 +47,18 @@ public class ModConfigScreen {
                 .setSaveConsumer(val -> config.stonecutterDamageEnabled = val)
                 .build());
 
+        // Bluestone
+        ConfigCategory bluestoneCategory = builder.getOrCreateCategory(
+                Text.translatable("category.lucastweaks.bluestone"));
+
+        bluestoneCategory.addEntry(entryBuilder.startBooleanToggle(
+                        Text.translatable("option.lucastweaks.bluestone_enabled"),
+                        config.bluestoneEnabled)
+                .setDefaultValue(true)
+                .setTooltip(Text.translatable("tooltip.lucastweaks.bluestone_enabled"))
+                .setSaveConsumer(val -> config.bluestoneEnabled = val)
+                .build());
+
         // Stackable Totems
         ConfigCategory totemCategory = builder.getOrCreateCategory(
                 Text.translatable("category.lucastweaks.stackable_totems"));

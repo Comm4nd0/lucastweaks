@@ -1,0 +1,53 @@
+{
+    "multipart": [
+        {
+            "when": {
+                "OR": [
+                    { "north": "none", "south": "none", "east": "none", "west": "none" },
+                    { "north": "side|up", "east": "side|up" },
+                    { "north": "side|up", "west": "side|up" },
+                    { "south": "side|up", "east": "side|up" },
+                    { "south": "side|up", "west": "side|up" },
+                    { "north": "side|up", "south": "side|up", "east": "side|up" },
+                    { "north": "side|up", "south": "side|up", "west": "side|up" },
+                    { "north": "side|up", "east": "side|up", "west": "side|up" },
+                    { "south": "side|up", "east": "side|up", "west": "side|up" },
+                    { "north": "side|up", "south": "side|up", "east": "side|up", "west": "side|up" }
+                ]
+            },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_dot" }
+        },
+        {
+            "when": { "north": "side|up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_side0" }
+        },
+        {
+            "when": { "south": "side|up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_side_alt0" }
+        },
+        {
+            "when": { "east": "side|up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_side_alt1" }
+        },
+        {
+            "when": { "west": "side|up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_side1" }
+        },
+        {
+            "when": { "north": "up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_up" }
+        },
+        {
+            "when": { "south": "up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_up", "y": 180 }
+        },
+        {
+            "when": { "east": "up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_up", "y": 90 }
+        },
+        {
+            "when": { "west": "up" },
+            "apply": { "model": "lucastweaks:block/bluestone_dust_up", "y": 270 }
+        }
+    ]
+}
