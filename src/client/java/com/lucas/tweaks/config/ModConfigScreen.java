@@ -35,6 +35,18 @@ public class ModConfigScreen {
                 .setSaveConsumer(val -> config.vaultResetMinutes = val)
                 .build());
 
+        // Stonecutter Damage
+        ConfigCategory stonecutterCategory = builder.getOrCreateCategory(
+                Text.translatable("category.lucastweaks.stonecutter_damage"));
+
+        stonecutterCategory.addEntry(entryBuilder.startBooleanToggle(
+                        Text.translatable("option.lucastweaks.stonecutter_damage_enabled"),
+                        config.stonecutterDamageEnabled)
+                .setDefaultValue(true)
+                .setTooltip(Text.translatable("tooltip.lucastweaks.stonecutter_damage_enabled"))
+                .setSaveConsumer(val -> config.stonecutterDamageEnabled = val)
+                .build());
+
         // Secondary Toolbar
         ConfigCategory toolbarCategory = builder.getOrCreateCategory(
                 Text.translatable("category.lucastweaks.secondary_toolbar"));

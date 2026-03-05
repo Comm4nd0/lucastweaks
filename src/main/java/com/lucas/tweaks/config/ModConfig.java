@@ -19,6 +19,9 @@ public class ModConfig {
     public boolean vaultResetEnabled = true;
     public int vaultResetMinutes = 10;
 
+    // Stonecutter Damage
+    public boolean stonecutterDamageEnabled = true;
+
     // Secondary Toolbar
     public boolean secondaryToolbarEnabled = true;
     public int secondaryToolbarSlots = 6;

@@ -6,7 +6,8 @@
     "mixins": [
         "VaultServerDataAccessor",
         "VaultSharedDataAccessor",
-        "VaultBlockEntityServerMixin"
+        "VaultBlockEntityServerMixin",
+        "StonecutterDamageMixin"
     ],
     "injectors": {
         "defaultRequire": 1
