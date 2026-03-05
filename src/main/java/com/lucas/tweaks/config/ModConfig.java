@@ -19,6 +19,15 @@ public class ModConfig {
     public boolean vaultResetEnabled = true;
     public int vaultResetMinutes = 10;
 
+    // Stonecutter Damage
+    public boolean stonecutterDamageEnabled = true;
+
+    // Bluestone
+    public boolean bluestoneEnabled = true;
+
+    // Stackable Totems
+    public boolean stackableTotemsEnabled = true;
+
     // Secondary Toolbar
     public boolean secondaryToolbarEnabled = true;
     public int secondaryToolbarSlots = 6;

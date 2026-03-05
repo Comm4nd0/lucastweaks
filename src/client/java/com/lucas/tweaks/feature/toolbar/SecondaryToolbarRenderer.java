@@ -12,7 +12,8 @@ public class SecondaryToolbarRenderer {
 
     private static final int SLOT_SIZE = 20;
     private static final int ITEM_OFFSET = 2;
-    private static final int VERTICAL_GAP = 4;
+    private static final int HORIZONTAL_GAP = 4;
+    private static final int VANILLA_HOTBAR_WIDTH = 182;
 
     // Colors (ARGB)
     private static final int BG_COLOR = 0xAA000000;
@@ -40,9 +41,10 @@ public class SecondaryToolbarRenderer {
         int toolbarWidth = displayCount * SLOT_SIZE + 2;
         int toolbarHeight = SLOT_SIZE + 2;
 
-        int toolbarX = (screenWidth - toolbarWidth) / 2;
+        int vanillaHotbarLeft = (screenWidth - VANILLA_HOTBAR_WIDTH) / 2;
         int vanillaHotbarTop = screenHeight - 22;
-        int toolbarY = vanillaHotbarTop - VERTICAL_GAP - toolbarHeight;
+        int toolbarX = vanillaHotbarLeft - HORIZONTAL_GAP - toolbarWidth;
+        int toolbarY = vanillaHotbarTop;
 
         // Background
         drawContext.fill(toolbarX, toolbarY,
