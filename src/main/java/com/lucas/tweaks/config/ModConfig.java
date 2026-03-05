@@ -22,6 +22,9 @@ public class ModConfig {
     // Stonecutter Damage
     public boolean stonecutterDamageEnabled = true;
 
+    // Stackable Totems
+    public boolean stackableTotemsEnabled = true;
+
     // Secondary Toolbar
     public boolean secondaryToolbarEnabled = true;
     public int secondaryToolbarSlots = 6;

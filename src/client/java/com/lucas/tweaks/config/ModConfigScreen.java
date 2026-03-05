@@ -47,6 +47,18 @@ public class ModConfigScreen {
                 .setSaveConsumer(val -> config.stonecutterDamageEnabled = val)
                 .build());
 
+        // Stackable Totems
+        ConfigCategory totemCategory = builder.getOrCreateCategory(
+                Text.translatable("category.lucastweaks.stackable_totems"));
+
+        totemCategory.addEntry(entryBuilder.startBooleanToggle(
+                        Text.translatable("option.lucastweaks.stackable_totems_enabled"),
+                        config.stackableTotemsEnabled)
+                .setDefaultValue(true)
+                .setTooltip(Text.translatable("tooltip.lucastweaks.stackable_totems_enabled"))
+                .setSaveConsumer(val -> config.stackableTotemsEnabled = val)
+                .build());
+
         // Secondary Toolbar
         ConfigCategory toolbarCategory = builder.getOrCreateCategory(
                 Text.translatable("category.lucastweaks.secondary_toolbar"));
