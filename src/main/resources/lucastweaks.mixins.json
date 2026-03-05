@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "minVersion": "0.8",
+    "package": "com.lucas.tweaks.mixin",
+    "compatibilityLevel": "JAVA_21",
+    "mixins": [
+        "VaultServerDataAccessor",
+        "VaultSharedDataAccessor",
+        "VaultBlockEntityServerMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}

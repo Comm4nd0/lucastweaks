@@ -1,0 +1,39 @@
+{
+    "schemaVersion": 1,
+    "id": "lucastweaks",
+    "version": "${version}",
+    "name": "LucasTweaks",
+    "description": "A collection of toggleable Quality of Life improvements for Minecraft.",
+    "authors": [
+        "Lucas"
+    ],
+    "contact": {},
+    "license": "MIT",
+    "icon": "assets/lucastweaks/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "com.lucas.tweaks.LucasTweaks"
+        ],
+        "client": [
+            "com.lucas.tweaks.LucasTweaksClient"
+        ],
+        "modmenu": [
+            "com.lucas.tweaks.ModMenuIntegration"
+        ]
+    },
+    "mixins": [
+        "lucastweaks.mixins.json",
+        "lucastweaks.client.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": ">=0.18.2",
+        "minecraft": "~1.21.11",
+        "java": ">=21",
+        "fabric-api": "*"
+    },
+    "suggests": {
+        "cloth-config": "*",
+        "modmenu": "*"
+    }
+}

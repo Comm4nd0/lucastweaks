@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "T",
+        "S",
+        "S"
+    ],
+    "key": {
+        "T": "minecraft:tripwire_hook",
+        "S": "minecraft:string"
+    },
+    "result": {
+        "id": "lucastweaks:grappling_hook",
+        "count": 1
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "title.lucastweaks.config": "LucasTweaks Configuration",
+    "category.lucastweaks.vault_reset": "Vault Reset",
+    "option.lucastweaks.vault_reset_enabled": "Enable Vault Reset",
+    "tooltip.lucastweaks.vault_reset_enabled": "When enabled, trial chamber vaults will periodically reset, allowing players to loot them again.",
+    "option.lucastweaks.vault_reset_minutes": "Reset Interval (minutes)",
+    "tooltip.lucastweaks.vault_reset_minutes": "How often vaults reset their rewarded players list, in minutes.",
+    "item.lucastweaks.grappling_hook": "Grappling Hook",
+    "category.lucastweaks.secondary_toolbar": "Secondary Toolbar",
+    "option.lucastweaks.secondary_toolbar_enabled": "Enable Secondary Toolbar",
+    "tooltip.lucastweaks.secondary_toolbar_enabled": "Shows a second toolbar above the hotbar displaying tools and weapons from your inventory. Use Shift+Scroll to select and swap items.",
+    "option.lucastweaks.secondary_toolbar_slots": "Toolbar Slots",
+    "tooltip.lucastweaks.secondary_toolbar_slots": "Number of slots displayed in the secondary toolbar (1-9)."
+}
