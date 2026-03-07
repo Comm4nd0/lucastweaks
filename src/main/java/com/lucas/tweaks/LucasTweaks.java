@@ -7,6 +7,7 @@ import com.lucas.tweaks.feature.StackableTotemFeature;
 import com.lucas.tweaks.feature.VaultResetFeature;
 import com.lucas.tweaks.item.ModItems;
 import com.lucas.tweaks.network.ModNetworking;
+import com.lucas.tweaks.recipe.ModRecipeSerializers;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.event.lifecycle.v1.ServerWorldEvents;
 import org.slf4j.Logger;
@@ -22,6 +23,7 @@ public class LucasTweaks implements ModInitializer {
         ModBlocks.initialize();
         ModEntityTypes.initialize();
         ModItems.initialize();
+        ModRecipeSerializers.initialize();
         ModNetworking.registerPayloads();
         ModNetworking.registerServerReceivers();
         StackableTotemFeature.initialize();

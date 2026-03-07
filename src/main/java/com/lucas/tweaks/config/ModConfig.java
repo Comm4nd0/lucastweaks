@@ -32,6 +32,9 @@ public class ModConfig {
     public boolean secondaryToolbarEnabled = true;
     public int secondaryToolbarSlots = 6;
 
+    // Elytra Banner
+    public boolean elytraBannerEnabled = true;
+
     public static ModConfig get() {
         return INSTANCE;
     }
