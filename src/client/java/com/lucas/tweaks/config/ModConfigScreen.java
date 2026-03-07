@@ -91,6 +91,18 @@ public class ModConfigScreen {
                 .setSaveConsumer(val -> config.secondaryToolbarSlots = val)
                 .build());
 
+        // Elytra Banner
+        ConfigCategory elytraBannerCategory = builder.getOrCreateCategory(
+                Text.translatable("category.lucastweaks.elytra_banner"));
+
+        elytraBannerCategory.addEntry(entryBuilder.startBooleanToggle(
+                        Text.translatable("option.lucastweaks.elytra_banner_enabled"),
+                        config.elytraBannerEnabled)
+                .setDefaultValue(true)
+                .setTooltip(Text.translatable("tooltip.lucastweaks.elytra_banner_enabled"))
+                .setSaveConsumer(val -> config.elytraBannerEnabled = val)
+                .build());
+
         builder.setSavingRunnable(ModConfig::save);
 
         return builder.build();

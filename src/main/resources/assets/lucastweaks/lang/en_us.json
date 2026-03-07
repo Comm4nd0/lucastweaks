@@ -21,5 +21,8 @@
     "option.lucastweaks.secondary_toolbar_enabled": "Enable Secondary Toolbar",
     "tooltip.lucastweaks.secondary_toolbar_enabled": "Shows a second toolbar above the hotbar displaying tools and weapons from your inventory. Use Shift+Scroll to select and swap items.",
     "option.lucastweaks.secondary_toolbar_slots": "Toolbar Slots",
-    "tooltip.lucastweaks.secondary_toolbar_slots": "Number of slots displayed in the secondary toolbar (1-9)."
+    "tooltip.lucastweaks.secondary_toolbar_slots": "Number of slots displayed in the secondary toolbar (1-9).",
+    "category.lucastweaks.elytra_banner": "Elytra Banner",
+    "option.lucastweaks.elytra_banner_enabled": "Enable Elytra Banner",
+    "tooltip.lucastweaks.elytra_banner_enabled": "When enabled, you can apply banner patterns to an elytra by crafting them together. The elytra will display the banner's base color."
 }

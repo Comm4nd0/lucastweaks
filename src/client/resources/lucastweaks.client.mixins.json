@@ -4,7 +4,8 @@
     "package": "com.lucas.tweaks.mixin.client",
     "compatibilityLevel": "JAVA_21",
     "client": [
-        "MouseScrollMixin"
+        "MouseScrollMixin",
+        "ElytraFeatureRendererMixin"
     ],
     "injectors": {
         "defaultRequire": 1
